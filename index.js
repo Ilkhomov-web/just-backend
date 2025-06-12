@@ -27,7 +27,7 @@ mongoose.connect("mongodb+srv://ilhomovelyor119:E200!0624@cluster0.jc3d3bt.mongo
 
 app.get("/", (req, res)=> {
   res.send("Express App in Running")
-})
+});
 
 // Image Storage Engine
 const storage = multer.diskStorage({
